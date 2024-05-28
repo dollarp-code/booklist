@@ -29,7 +29,13 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
+.book:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
 .book img {
   width: 100%;
   object-fit: cover;
@@ -44,4 +50,22 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5rem;
   letter-spacing: 0.5rem;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75rem;
+  background-color: #c35600;
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
 }
